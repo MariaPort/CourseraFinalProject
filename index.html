@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Memoji</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="page-header">
+    <h1 class="page-header__headline">Memoji</h1>
+  </header>
+
+  <main class="page-main">
+    <section class="page-main__layout layout">
+      <ul class="layout__list cards-list">
+        <li class="cards-list__item">
+          <div class="item-img item-img--back">🐷</div>
+          <div class="item-img item-img--front"></div>
+        </li>
+        <li class="cards-list__item">
+          <div class="item-img item-img--back">🐞</div>
+          <div class="item-img item-img--front"></div>
+        </li>
+        <li class="cards-list__item">
+          <div class="item-img item-img--back">🐞</div>
+          <div class="item-img item-img--front"></div>
+        </li>
+        <li class="cards-list__item">
+          <div class="item-img item-img--back">🐙</div>
+          <div class="item-img item-img--front"></div>
+        </li>
+        <li class="cards-list__item">
+          <div class="item-img item-img--back">🦄</div>
+          <div class="item-img item-img--front"></div>
+        </li>
+        <li class="cards-list__item">
+          <div class="item-img item-img--back">🐷</div>
+          <div class="item-img item-img--front"></div>
+        </li>
+        <li class="cards-list__item">
+          <div class="item-img item-img--back">🦀</div>
+          <div class="item-img item-img--front"></div>
+        </li>
+        <li class="cards-list__item">
+          <div class="item-img item-img--back">🐵</div>
+          <div class="item-img item-img--front"></div>
+        </li>
+        <li class="cards-list__item">
+          <div class="item-img item-img--back">🐙</div>
+          <div class="item-img item-img--front"></div>
+        </li>
+        <li class="cards-list__item">
+          <div class="item-img item-img--back">🐵</div>
+          <div class="item-img item-img--front"></div>
+        </li>
+        <li class="cards-list__item">
+          <div class="item-img item-img--back">🦀</div>
+          <div class="item-img item-img--front"></div>
+        </li>
+        <li class="cards-list__item">
+          <div class="item-img item-img--back">🦄</div>
+          <div class="item-img item-img--front"></div>
+        </li>
+
+      </ul>
+    </section>
+    <div class="main-page__timer timer">
+      <span class="timer__minutes">01</span>
+      <b>:</b>
+      <span class="timer__seconds">00</span>
+    </div>
+  </main>
+
+  <div class="pop-up-window">
+    <div class="pop-up">
+      <p class="pop-up__text pop-up__text--lose">
+        <span>L</span>
+        <span>o</span>
+        <span>s</span>
+        <span>e</span>
+      </p>
+      <p class="pop-up__text pop-up__text--win">
+        <span>W</span>
+        <span>i</span>
+        <span>n</span>
+      </p>
+      <button class="pop-up__btn pop-up__btn--lose">Try again</button>
+      <button class="pop-up__btn pop-up__btn--win">Play again</button>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+  <script>
+    memojiGame();
+  </script>
+</body>
+</html>
